@@ -44,6 +44,7 @@ const PhotoPage = () => {
 
   const isLoading = form.formState.isSubmitting;
 
+  //page.tsx
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
       setPhotos([]);

@@ -7,7 +7,7 @@ export const Loader = () => {
         <Image alt="Logo" src="/logo.png" fill />
       </div>
       <p className="text-sm text-muted-foreground">
-        hold on while AI Imagine...
+        hold on while AI thinking...
       </p>
     </div>
   );

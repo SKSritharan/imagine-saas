@@ -10,7 +10,7 @@ import "./globals.css";
 const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Imagine",
+  title: "Genius",
   description: "Image generative artificial intelligence",
   keywords: "image, generative, artificial, intelligence, saas",
 };

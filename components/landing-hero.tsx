@@ -29,8 +29,8 @@ export const LandingHero = () => {
         </div>
       </div>
       <div className="text-sm md:text-xl font-light text-zinc-400">
-        Imagine a world where you can create anything you can imagine with just
-        a few words of text.
+        Genius a world where you can create anything you can Genius with just a
+        few words of text.
       </div>
       <div>
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>

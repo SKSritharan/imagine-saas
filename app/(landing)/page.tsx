@@ -8,6 +8,9 @@ const LandingPage = () => {
       <LandingNavbar />
       <LandingHero />
       <LandingContent />
+      <footer className="text-center text-gray-500 text-sm mt-8">
+        Design & Development by Surendranathan Shasangan
+      </footer>
     </div>
   );
 };

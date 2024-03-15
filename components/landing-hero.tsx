@@ -17,10 +17,10 @@ export const LandingHero = () => {
           <TypewriterComponent
             options={{
               strings: [
-                "Chatbot.",
+                "Secure Authentication",
                 "Photo Generation.",
-                "Blog Writing.",
-                "Mail Writing.",
+                "Seamless Subscription",
+                "And More!",
               ],
               autoStart: true,
               loop: true,
@@ -29,7 +29,8 @@ export const LandingHero = () => {
         </div>
       </div>
       <div className="text-sm md:text-xl font-light text-zinc-400">
-        Create content using AI 10x faster.
+        Imagine a world where you can create anything you can imagine with just
+        a few words of text.
       </div>
       <div>
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>

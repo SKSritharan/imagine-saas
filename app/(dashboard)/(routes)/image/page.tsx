@@ -44,7 +44,6 @@ const PhotoPage = () => {
 
   const isLoading = form.formState.isSubmitting;
 
-  //page.tsx
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
       setPhotos([]);
@@ -101,7 +100,6 @@ const PhotoPage = () => {
                       disabled={isLoading}
                       placeholder="A picture of a horse in Swiss alps"
                       {...field}
-                      required
                     />
                   </FormControl>
                 </FormItem>

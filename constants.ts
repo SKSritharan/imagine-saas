@@ -1,10 +1,6 @@
-import {
-  ImageIcon,
-  LayoutDashboard,
-  Settings,
-} from "lucide-react";
+import { ImageIcon, LayoutDashboard, Settings } from "lucide-react";
 
-export const MAX_FREE_COUNTS = 5;
+export const MAX_FREE_COUNTS = 10;
 
 export const tools = [
   {

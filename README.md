@@ -6,6 +6,8 @@ First, run the development server:
 
 ```bash
 npm run dev
+npx prisma studio
+stripe listen --forward-to localhost:3000/api/webhook
 # or
 yarn dev
 # or

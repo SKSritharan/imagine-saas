@@ -1,0 +1,4 @@
+.venv
+.idx
+.env
+./public
